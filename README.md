@@ -12,6 +12,7 @@ For each set of parents, we do Crossover, which will create a Player that has a 
 The final step is a small mutation chance of each part of the allele, which will create a new random Pokemon in a player's team.
 
 How do I use it?
+
 To use the program, simply download and then run genetic.py. Personally I use Jupyter Notebook as this is the easiest way to interact with it. At the bottom of Genetic.py you can adjust the parameters in creating the instance of the class Player, which represents the Population.
 
 I also included commented-out classes of Population and Chromosome which demonstrate how an abstract genetic algorithm class works.
