@@ -1,0 +1,13 @@
+Players as chromosomes in a population:
+ 
+each Player has a team of 6 random pokemon from gen1, which we will call the allele (len 6)
+
+one cycle goes as follows:
+
+1. Each Player will play against every other Player in the population
+2. We evaluate the fitness of each Player, which is the number of wins obtained
+3. We do a weighted selection of the Players for crossover in the next generation
+4. We produce the new population of Players via crossover, where the allele is the pokemon in the team (kind of like trading)
+   (We'll make a new random name)
+5. We have a small mutation chance to randomly generate a new pokemon in the team
+6. Repeat :)
