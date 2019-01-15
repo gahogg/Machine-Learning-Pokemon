@@ -1,5 +1,5 @@
 # Machine-Learning-Pokemon
-This program uses genetic algorithms and artificial intelligence to build the best Pokemon team. It is built using NumPy and SciPy for Python 3.
+This program uses genetic algorithms and artificial intelligence to build the best Pokemon team. It is built using NumPy and SciPy for Python 3. Also uses a bit of Pandas to import some data from csv's.
 
 What does it do?
 
